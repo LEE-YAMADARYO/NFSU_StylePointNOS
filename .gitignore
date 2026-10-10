@@ -1,0 +1,10 @@
+# Build output
+Release/
+Debug/
+
+# Intermediate files
+StylePointNOS/
+x86/
+.vs/
+*.user
+*.suo
