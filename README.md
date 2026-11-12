@@ -16,7 +16,7 @@ Output: `Release\StylePointNOS.asi`. MinHook is bundled in `MinHook/`.<br>
 None found so far, if any exist, please submit an issue.<br><br>
 # StylePointNOS_Chinese
 ## 注意：此项目使用了 LLM 辅助开发.
-适用于 **Need for Speed: Underground (v1.4.0)** 的改进插件，能将每局赛事中即时获取的“风格点数”转化为可用氮气 (NOS).<br>
+适用于 **极品飞车：地下狂飙 (v1.4.0)** 的插件，能将每局赛事中即时获取的“风格点数”转化为可用氮气 (NOS).<br>
 ## 工作原理
 插件会在检测风格点数的变化，并将该变化量按 `NOSPerPoint` 的比例转换为游戏内部的 NOS 单位，例如：<br>
 - 漂移获得 `+123` 点数（默认 `NOSPerPoint` 为 `10.0`）→ 增加 `+1230` 个单位（1 个单位相当于 1/4000 秒使用量）<br>
